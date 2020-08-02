@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "lightroom-collection-export"
+version = "0.1.0"
+description = "Parses Lightroom Catalog (LRCAT) File To Export Collections"
+authors = ["Caesar Kabalan <caesar.kabalan@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "~3.8"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
